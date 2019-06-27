@@ -1,5 +1,24 @@
-{% extends "base.html" %}
-{% block content %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>★饲鲲主★</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> 
+  addEventListener(
+    "load", 
+    function() { 
+      setTimeout(hideURLbar, 0);
+       }, 
+       false); 
+  function hideURLbar(){
+   window.scrollTo(0,1);
+ }
+</script>
+</head>
+
+<script src="{{static_url('js/jquery.min.js')}}"></script>
+<script src="{{static_url('js/bootstrap.min.js')}}"></script>
 
  <body id="login">
     <div class="container">
@@ -68,6 +87,14 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{static_url('SBMode/dist/js/sb-admin-2.js')}}"></script>
-{% end %}
 
+
+    <link href="{{static_url('SBMode/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="{{static_url('SBMode/vendor/metisMenu/metisMenu.min.css')}}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{static_url('SBMode/dist/css/sb-admin-2.css')}}" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="{{static_url('SBMode/vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+</html>
   
