@@ -171,7 +171,7 @@ body {
 }
 
 body#login{
-  background: url(/static/SBMode/images/bg.jpg)no-repeat;
+  background: url(./static/SBMode/images/bg.jpg)no-repeat;
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
